@@ -1,0 +1,11 @@
+services:
+  broker:
+    build: .
+    ports:
+      - "5000:5000"
+    networks:
+      - pad-net
+
+networks:
+  pad-net:
+    driver: bridge
