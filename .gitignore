@@ -2,3 +2,10 @@
 target/
 *.class
 dependency-reduced-pom.xml
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+*.log
